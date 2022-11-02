@@ -1,0 +1,47 @@
+/* font-family: 'Inter', sans-serif; */
+
+.font-1-xxl{
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.42;
+  transition: .3s;
+}
+
+.font-1-x-b{
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.18;
+}
+
+.font-1-x{
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.18;
+}
+
+@media (max-width:1150px){
+  .font-1-xxl{
+  font-size: 1.7rem;
+  }
+}
+
+/* @media (max-width:720px){
+  .font-1-xxl{
+    font-size: 1.4rem;
+    }
+} */
+
+@media (max-width:600px){
+  .font-1-xxl{
+    font-size: 1.12rem;
+    }
+    .font-1-x-b{
+      font-size: 1rem;
+    }
+    .font-1-x{
+      font-size: 1rem;
+    }
+}

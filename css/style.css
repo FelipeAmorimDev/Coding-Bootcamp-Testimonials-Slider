@@ -1,0 +1,10 @@
+
+@import url("./components/typographies.css");
+@import url("./components/colors.css");
+
+
+@import url("./generals/general.css");
+
+@import url("./home/main.css");
+@import url("./home/testemonial-content.css");
+

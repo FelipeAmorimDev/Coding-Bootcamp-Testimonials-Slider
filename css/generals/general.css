@@ -1,0 +1,30 @@
+
+body{
+ min-height: 100vh;
+  margin: 0px;
+  background-image: url("../../images/pattern-curve.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+h1,p{
+  margin: 0px;
+  padding: 0px;
+}
+
+blockquote{
+  margin: 0px;
+}
+
+img{
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+
+
+@media (max-width:375px){
+  body{
+    background-size: 70%;
+  }
+}
