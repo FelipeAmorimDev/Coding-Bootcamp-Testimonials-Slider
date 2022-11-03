@@ -23,7 +23,7 @@
 }
 
 .testimonial-content .testimonial-quote blockquote h1,.testimonial-content .testimonial-quote blockquote p{
-  max-width: 30ch;
+  max-width: 32ch;
   position: relative;
 }
 
@@ -120,7 +120,6 @@
   left: 50%;
   transform: translate(-50%);
   }
-
   .testimonial-content .testimonial-quote blockquote h1::before,.testimonial-content .testimonial-quote blockquote p::before{
    background-size: 80px;
    background-repeat: no-repeat;
@@ -141,7 +140,7 @@
   }
   .testimonial-content .testimonial-quote blockquote h1,.testimonial-content .testimonial-quote blockquote p{
     padding-top: 20px;
-    
+    max-width: 30ch;
   }
   .testimonial-quote{
     text-align: center;
