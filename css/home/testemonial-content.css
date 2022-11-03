@@ -14,7 +14,7 @@
   background-position: right 0px top 50px ;
   box-sizing: border-box;
   place-self: center;
- 
+ transition: 1s;
 }
 
 .testimonial-section{
@@ -26,6 +26,7 @@
   padding-bottom: 40px;
   max-width: 32ch;
   position: relative;
+ 
 }
 
 .testimonial-content .testimonial-quote blockquote h1::before,.testimonial-content .testimonial-quote blockquote p::before{
@@ -44,6 +45,7 @@
   z-index: 10;
   place-self: center;
   transform: translateY(50px);
+  height: 320px;
 }
 
 .testimonial-content .testimonial-quote p{
@@ -63,14 +65,17 @@
 }
 
 .testimonial-content.john{
+  
   display: none;
 }
 
 .testimonial-content.tanya{
+
   display: none;
 }
 
 .testimonial-content.felipe{
+
   display: none;
 }
 
