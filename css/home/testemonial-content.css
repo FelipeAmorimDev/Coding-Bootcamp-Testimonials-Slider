@@ -45,7 +45,10 @@
   z-index: 10;
   place-self: center;
   transform: translateY(50px);
-  height: 320px;
+}
+
+.testimonial-quote blockquote{
+  min-height: 320px;
 }
 
 .testimonial-content .testimonial-quote p{
@@ -152,8 +155,10 @@
     background-position: center top 10px;
   }
   .testimonial-quote{
-    
     padding-bottom: 60px;
+  }
+  .testimonial-quote blockquote{
+    min-height: 240px;
   }
   .testimonial-content .testimonial-quote p{
     flex-direction: column;
