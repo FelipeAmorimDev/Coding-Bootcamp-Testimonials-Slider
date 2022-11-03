@@ -22,9 +22,9 @@
   
 }
 
-.testimonial-content .testimonial-quote blockquote h1,.testimonial-content .testimonial-quote p{
-  padding-bottom: 40px;
-  max-width: 32ch;
+.testimonial-content .testimonial-quote blockquote h1,.testimonial-content .testimonial-quote blockquote p{
+  padding-bottom: 20px;
+  max-width: 30ch;
   position: relative;
  
 }
@@ -78,13 +78,17 @@
 }
 
 .testimonial-content.felipe{
-
   display: none;
+  
 }
-
+.testimonial-content.felipe img{
+  height: 540px;
+}
 .testimonial-content.tanya.active{
   display: grid;
 }
+
+
 
 /*Botoes*/
 .button-container{
@@ -122,7 +126,8 @@
   .testimonial-content .testimonial-quote blockquote h1::before,.testimonial-content .testimonial-quote blockquote p::before{
    background-size: 80px;
    background-repeat: no-repeat;
-   top: 4px;
+   top: -18px;
+   left: 116px;
   }
 
   .testimonial-content .img-user{
@@ -131,8 +136,11 @@
     place-self: center;
     width: 420px;
   }
+  .testimonial-content.felipe img{
+    height: 420px;
+  }
   .testimonial-content .testimonial-quote blockquote h1,.testimonial-content .testimonial-quote blockquote p{
-    padding-top: 40px;
+    padding-top: 20px;
     
   }
   .testimonial-quote{
@@ -148,7 +156,11 @@
 @media (max-width:600px){
  
   .testimonial-content .img-user{
-    max-width: 250px;
+    max-width: 254px;
+    
+  }
+  .testimonial-content.felipe img{
+    height: 254px;
   }
   .testimonial-content{
     background-size: 320px;
@@ -158,7 +170,7 @@
     padding-bottom: 60px;
   }
   .testimonial-quote blockquote{
-    min-height: 240px;
+    min-height: 210px;
   }
   .testimonial-content .testimonial-quote p{
     flex-direction: column;
@@ -167,7 +179,7 @@
   .testimonial-content .testimonial-quote blockquote h1::before,.testimonial-content .testimonial-quote blockquote p::before{
     background-size: 60px;
     background-repeat: no-repeat;
-    top: 18px;
+    top: 0px;
     left: 120px;
    }
    .main{
@@ -185,9 +197,7 @@
   .testimonial-content .testimonial-quote h1::before{
     left: 120px;
   }
-  .testimonial-content .img-user{
-    max-width: 254px;
-  }
+
   .testimonial-content{
     margin: 0px 20px;
     background-size: 320px;
