@@ -11,7 +11,7 @@
   position: relative;
   background-image: url("../../images/pattern-bg.svg");
   background-repeat: no-repeat;
-  background-position: right 0px top 50px ;
+  background-position: right 0px top 38px ;
   box-sizing: border-box;
   place-self: center;
  transition: 1s;
@@ -23,10 +23,8 @@
 }
 
 .testimonial-content .testimonial-quote blockquote h1,.testimonial-content .testimonial-quote blockquote p{
-  padding-bottom: 20px;
   max-width: 30ch;
   position: relative;
- 
 }
 
 .testimonial-content .testimonial-quote blockquote h1::before,.testimonial-content .testimonial-quote blockquote p::before{
@@ -129,7 +127,9 @@
    top: -18px;
    left: 116px;
   }
-
+  .testimonial-section {
+    padding-bottom: 0px;
+}
   .testimonial-content .img-user{
     transform: translateX(0px);
     order: -1;
@@ -201,7 +201,7 @@
   .testimonial-content{
     margin: 0px 20px;
     background-size: 320px;
-    background-position: right -0px top 15px;
+    background-position: right -0px top 10px;
   }
   
   .testimonial-section{
